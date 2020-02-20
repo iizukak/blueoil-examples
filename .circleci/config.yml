@@ -9,10 +9,10 @@ jobs:
     steps:
       - checkout
       - python/load-cache
-      - python/install-deps
       - python/save-cache
       - run:
           command: |
+              pip install -e "git+git@github.com:blue-oil/blueoil.git#egg=blueoil[cpu,test]"
               pytest ./
           name: Test
 
