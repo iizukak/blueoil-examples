@@ -10,6 +10,7 @@ jobs:
       - checkout
       - run:
           command: |
+              pip install -U pip setuptools
               pip install -e "git+git@github.com:blue-oil/blueoil.git#egg=blueoil[cpu,test]"
               pytest ./
           name: Test
