@@ -11,6 +11,7 @@ jobs:
       - run:
           command: |
               pip install -U pip setuptools
+              pip install cython
               pip install -e "git+git@github.com:blue-oil/blueoil.git#egg=blueoil[test]"
               pip install tensorflow-cpu==1.15.2
               pytest ./
