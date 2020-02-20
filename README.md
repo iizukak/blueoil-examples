@@ -8,27 +8,27 @@
 
 ## Examples
 
-### simple-classification
+### simple\_classification
 
 Blueoil に組み込まれたシンプルな畳み込みニューラルネットワーク (CNN) を学習します。
 
-### custom-network
+### custom\_network
 
 独自の量子化ニューラルネットを定義し、Blueoil を用いて学習を行います。
 
-### custom-dataset-loader
+### custom\_dataset-loader
 
 Blueoil には [様々な種類のデータセットローダ](https://github.com/blue-oil/blueoil/tree/master/blueoil/datasets) 
 が定義されていますが、多くの場合、自分が作成したデータセットのデータローダは自前で書く必要があります。
 このサンプルでは、独自のデータセットに対してデータローダを定義します。
 
-### custom-training
+### custom\_training
 
 Blueoil はいわゆる学習ループを提供します。
 しかし、複雑なネットワークを定義する場合には学習ループを自分で定義する必要がある場合があり、
 このサンプルでは学習ループを実際に定義します。
 
-### inference-on-fpga
+### inference\_on\_fpga
 
 FPGA 上で、アクセラレータを用いて推論を実行します。
 
