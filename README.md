@@ -1,5 +1,7 @@
 # blueoil-examples
 
+[![CircleCI](https://circleci.com/gh/iizukak/blueoil-examples.svg?style=svg)](https://circleci.com/gh/iizukak/blueoil-examples)
+
 ## 概要
 
 このリポジトリは、低ビット量子化ディープラーニングフレームワーク 
