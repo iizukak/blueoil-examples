@@ -40,10 +40,9 @@ Blueoil は pip でインストールできますが、PyPI には登録され�
 リポジトリを clone してインストールします。
 
 ```
-$ git clone git@github.com:blue-oil/blueoil.git
-$ cd blueoil
-$ pip install -e .[gpu] # GPU がある場合
-$ pip install -e .[cpu] # GPU がない場合
+$ pip install -U pip setuptools
+$ pip install -r requirements.txt
+$ pip install tensorflow-gpu==1.15.2 # GPU がある場合
 $ which blueoil
 ```
 
@@ -60,6 +59,7 @@ $ pytest tests/
 ## 動作を確認した環境
 
 - Ubuntu 16.04.6 LTS
+- macOS Mojave 10.14.6
 - Python 3.6
 - cudnn 7.6.2.24-1+cuda10.0
 
