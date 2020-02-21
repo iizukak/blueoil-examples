@@ -10,12 +10,12 @@ jobs:
     executor: python/default
     steps:
       - checkout
+      - python/load-cache
+      - python/install-deps	
+      - python/save-cache
       - run:
           command: |
-              pip install -U pip setuptools
-              pip search tensorflow
-              pip install -e "git+git@github.com:blue-oil/blueoil.git#egg=blueoil[cpu,test]"
-              pytest ./
+              pytest ./tests/
           name: Test
 
 workflows:
