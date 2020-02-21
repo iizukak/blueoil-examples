@@ -18,7 +18,7 @@ Blueoil に組み込まれたシンプルな畳み込みニューラルネット
 
 独自の量子化ニューラルネットを定義し、Blueoil を用いて学習を行います。
 
-### custom\_dataset-loader
+### custom\_dataset\_loader
 
 Blueoil には [様々な種類のデータセットローダ](https://github.com/blue-oil/blueoil/tree/master/blueoil/datasets) 
 が定義されていますが、多くの場合、自分が作成したデータセットのデータローダは自前で書く必要があります。
