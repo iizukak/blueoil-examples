@@ -5,7 +5,7 @@ orbs:
 
 jobs:
   build-and-test:
-    executor: python36/default
+    executor: python/default
     steps:
       - checkout
       - run:
