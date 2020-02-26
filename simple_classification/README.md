@@ -49,7 +49,7 @@ Please see saved/cifar10_20200219141620/export/save.ckpt-78125/32x32/output/READ
 この場合だと `./saved/cifar10_20200219141620/export/save.ckpt-78125/32x32/output`
 に変換後のファイルが生成されています。
 
-## 推論の実行
+## 推論
 
 変換後のディレクトリに移動して、推論を実行します。パスは適宜読み替えてください。
 
